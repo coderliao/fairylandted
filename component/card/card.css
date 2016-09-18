@@ -1,0 +1,48 @@
+.main3{
+	background: #eeeeee;
+	height: 5.2rem;
+	padding: .1px;
+}
+.main3 .sharecard{
+	background: #ffffff;
+	width: 3.2rem;
+	height: 1.38rem;
+	border-top: .01rem solid #dfdfdf;
+	border-bottom: .01rem solid #dfdfdf;
+	margin: .1rem 0;
+}
+.main3 .sharecard img{
+	width: 0.38rem;
+	display: block;
+	margin: 0.44rem auto 0.2rem;
+}
+.main3 .sharecard h2{
+	text-align: center;
+	font-size: 0.14rem;
+	color: #868686;
+}
+.main3 .mycard{
+	background: #ffffff;
+	width: 3.2rem;
+	height: 2.1rem;
+	border-top: .01rem solid #dfdfdf;
+	border-bottom: .01rem solid #dfdfdf;
+}
+.main3 .mycard img{
+	width: 1.28rem;
+	display: block;
+	margin: 0.34rem auto 0.14rem;
+}
+.main3 .mycard h2{
+	text-align: center;
+	font-size: 0.13rem;
+	color: #868686;
+	line-height: .3rem;
+	height: .3rem;
+}
+.main3 .mycard a{
+	display: block;
+	text-align: center;
+	font-size: 0.13rem;
+	color: #656565;
+}

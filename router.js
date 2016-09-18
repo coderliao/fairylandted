@@ -1,0 +1,31 @@
+define(['backbone'],function(){
+	var Router = Backbone.Router.extend({
+		routes:{
+			'home':'homefun',
+			'list':'listfun',
+			'card':'cardfun',
+			'user':'userfun'
+		},
+		homefun:function(){
+			require(['./component/home/home.js'],function(home){
+				home.fun();
+			});
+		},
+		listfun:function(){
+			require(['./component/list/list.js'],function(list){
+				list.fun();
+			});
+		},
+		cardfun:function(){
+			require(['./component/card/card.js'],function(card){
+				card.fun();
+			});
+		},
+		userfun:function(){
+			require(['./component/user/user.js'],function(user){
+				user.fun();
+			});
+		},
+	});
+	var router = new Router();
+});

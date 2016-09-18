@@ -1,0 +1,39 @@
+.main4{
+	
+}
+.main4 .heada{
+	height: 1.65rem;
+	width: 3.2rem;
+	background: #eeeeee;
+	position: relative;
+}
+.main4 .heada #headbg{
+	display: block;
+	-webkit-filter: blur(8px);
+	height: 1.5rem;
+	width: 3.2rem;
+}
+.main4 .heada #head{
+	display: block;
+	width: 1rem;
+	border-radius: 50%;
+	position: absolute;
+	top: .3rem;
+	left: 1.1rem;
+}
+.main4 .userlist{
+	list-style: none;
+	width: 3.2rem;
+}
+.main4 .userlist li{
+	width: 3.2rem;
+	height: .48rem;
+	line-height: .48rem;
+	font-size: .14rem;
+	font-weight: 600;
+	color: #5e5e5e;
+	border-bottom: .02rem solid #eeeeee;
+	text-indent: .5em;
+	background: url(../../img/left.png) no-repeat 2.8rem .1rem;
+	background-size: .14rem;
+}

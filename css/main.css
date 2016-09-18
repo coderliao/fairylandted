@@ -1,0 +1,33 @@
+body{
+	padding-bottom: .6rem;
+}
+.gray{
+	color: #909090;
+}
+.red{
+	color: #f56e6a;
+}
+.tab{
+	height: .6rem;
+	width: 3.2rem;
+	position: fixed;
+	border-top: 1px solid #e0dedf;
+	background: white;
+	bottom: 0;
+}
+.tablist{
+	text-align: center;
+	width: .8rem;
+	float: left;
+	padding: .1rem 0 0;
+}
+.tablist p{
+	font-size: .2rem;
+	line-height: .25rem;
+	height: .25rem;
+}
+.tablist h2{
+	font-size: .12rem;
+	margin: 0;
+	line-height: .25rem;
+}

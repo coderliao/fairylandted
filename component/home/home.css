@@ -1,0 +1,68 @@
+.main1 #slidePic .swiper-wrapper div img{
+	width: 3.2rem;
+	height: 1.53rem;
+}
+.main1 #slidePic .swiper-pagination{
+	bottom: 2px;
+}
+.main1 .arealist img{
+	display: block;
+	float: left;
+	width: 1.59rem;
+}
+.main1 .arealist:first-of-type img{
+	margin-right: 0.02rem;
+}
+.main1 #suggest{
+	clear: both;
+	height: .46rem;
+	padding-top: .08rem;
+	width: 3.2rem;
+}
+.main1 #suggest h2{
+	width: .8rem;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+	font-size: .16rem;
+	height: .30rem;
+	line-height: .30rem;
+	color: #f1705a;
+	border-top: .02rem solid #f1705a;
+	border-bottom: .02rem solid #f1705a;
+}
+.main1 section{
+	box-sizing: border-box;
+	width: 3.1rem;
+	float: left;
+	padding: .05rem;
+	padding-bottom: 0;
+	margin: .05rem;
+	color: gray;
+	border:  .01rem solid #e0dedf;
+}
+.main1 section:last-of-type{
+	margin-bottom: .6rem;
+}
+.main1 section img{
+	display: block;
+	float: left;
+	width: 3rem;
+}
+.main1 section p:first-of-type{
+	text-indent: .02rem;
+	font-size: .14rem;
+	height: .3rem;
+	line-height: .3rem;
+	width: 2rem;
+	float: left;
+}
+.main1 section p:last-of-type{
+	font-size: .12rem;
+	text-align: right;
+	padding-right: .05rem;
+	height: .3rem;
+	line-height: .3rem;
+	width: .8rem;
+	float: right;
+}

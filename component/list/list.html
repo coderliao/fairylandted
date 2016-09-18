@@ -1,0 +1,49 @@
+<div class="main2">
+	<ul class="main2nav">
+		<li class="sort redbottom">分类</li>
+		<li class="city transbottom">全城</li>
+		<li class="order transbottom">排序</li>
+	</ul>
+	<div class="cityselect">
+		<ul>
+			<li class="graybg">全城</li>
+			<li>东城区</li>
+			<li>西城区</li>
+			<li>崇文区</li>
+			<li>宣武区</li>
+			<li>朝阳区</li>
+			<li>丰台区</li>
+			<li>石景山区</li>
+			<li>海淀区</li>
+			<li>门头沟区</li>
+			<li>房山区</li>
+			<li>通州区</li>
+			<li>顺义区</li>
+			<li>昌平区</li>
+			<li>大兴区</li>
+			<li>怀柔区</li>
+			<li>平谷区</li>
+			<li>密云区</li>
+			<li>延庆县</li>
+		</ul>
+	</div>
+	<script type="text/template" id="listmsg">
+		<%for(var i=0;i<data.length;i++){%>
+			<div>
+				<img src="<%=data[i].img%>">
+				<div>
+					<section class="left">
+						<h2><%=data[i].name%></h2>
+						<p><%=data[i].address%></p>
+					</section>
+					<section class="right">
+						<p class="iconfont icon-didian"></p>
+						<p><%=data[i].dist%>公里</p>
+					</section>
+				</div>
+			</div>
+		<%}%>
+	</script>
+	<div class="content">
+	</div>
+</div>
